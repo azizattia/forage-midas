@@ -6,7 +6,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 public class Transaction {
     private long senderId;
     private long recipientId;
-    private float amount;
+    private float amount;  // Changed back to float
 
     public Transaction() {
     }
